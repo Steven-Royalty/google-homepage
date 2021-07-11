@@ -1,0 +1,17 @@
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 150px 1fr 1fr 1fr 150px;
+}
+
+.item {
+    font-size: 125%;
+    color:palevioletred;
+    background-color: peachpuff;
+    grid-gap: 15px;
+    justify-items: center;
+}
