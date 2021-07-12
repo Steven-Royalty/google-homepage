@@ -1,3 +1,8 @@
+body {
+    height: 100vh;
+    font-size: smaller;
+}
+
 header {
     display: flex;
     width: 100%;
@@ -26,4 +31,87 @@ nav div {
 
 nav a {
     margin-right: 10px;
+    text-decoration: none;
+}
+
+header nav div {
+    display: flex;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+main img {
+    display: block;
+    margin: 0 auto;
+}
+
+#search {
+    width: 500px;
+    height: 30px;
+    border-radius: 15px;
+    border: solid 1px grey;
+    margin-top: 25px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+
+}
+
+.buttons div {
+    margin: 5px;
+    padding: 10px;
+    color: #3b3b3b;
+    background-color: rgb(245, 245, 245);
+    border-color: #d8d7d7;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 6px;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+}
+
+footer nav div:nth-child(2) {
+    display: flex;
+    position: relative;
+    margin-right: 125px;
+    padding-left: 0;
+}
+
+footer a {
+    padding-right: 10px;
+}
+
+.search-icon {
+    position: absolute;
+    padding: 12px 5px;
+    filter: contrast(0);
+    margin: 18px 0;
 }
