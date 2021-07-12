@@ -115,3 +115,8 @@ footer a {
     filter: contrast(0);
     margin: 18px 0;
 }
+
+footer img {
+    position: relative;
+    top: 5px;
+}
